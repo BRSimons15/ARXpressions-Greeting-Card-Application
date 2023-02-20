@@ -1,0 +1,19 @@
+<!-- The content page extends our base template -->
+{% extends 'base.html' %}
+
+<!-- Fill in the title -->
+{% block title %} Personal Message Reader {% endblock %}
+
+{% block content %}
+        <h2>Read your personal message:</h2>
+        <hr class="hr-text"/>
+    <main class="row justify-content-center">
+        <form action="/submit_read_wish" method="post" class="col-8">
+            <div class="form-group">
+                <label for="code">Please enter your code:</label>
+                <input type="text" class="form-control" id="code" name="code" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </main>
+{% endblock %}

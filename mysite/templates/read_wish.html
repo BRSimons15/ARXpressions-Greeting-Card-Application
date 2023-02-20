@@ -1,0 +1,26 @@
+<!-- The content page extends our base template -->
+{% extends 'base.html' %}
+
+<!-- Fill in the title -->
+{% block title %} Wish {% endblock %}
+
+{% block content %}
+    <h1>Wish message:</h1>
+    {#        [{'wishid': 1, 'sender': 'Bjorn', 'message': 'Gelukkige verjaardag!', 'cardid': 1}] #}
+    <div class="row justify-content-center mt-5">
+        <div class="col-10">
+            <div class="card">
+                <div class="card-header text-center p-5">
+                    <h4 class="card-text">{{ wish["message"] }}</h4>
+                </div>
+                <div class="card-body">
+
+                </div>
+                <div class="card-footer mt-2">
+                    <p>Sender: {{ wish["sender"] }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
