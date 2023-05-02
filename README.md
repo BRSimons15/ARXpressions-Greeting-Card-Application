@@ -1,6 +1,6 @@
 # Arxpressions - Giftcard Shop
 
-Dit is een schoolproject gemaakt door Bjorn Van den Dungen, Brent Simons, Chadi Abdelghani-Idrissi en Daan Michelsen voor de 2de projectweek van het 1e jaar van de ITFactory van Thomas more geel. Arxpressions is een Flask-applicatie die dient als een online winkel voor het kopen van giftcards. Met deze applicatie kun je gemakkelijk een giftcard bestellen en deze wordt vervolgens via e-mail naar de ontvanger gestuurd.
+Dit is een schoolproject gemaakt door Bjorn Van den Dungen, Brent Simons, Chadi Abdelghani-Idrissi en Daan Michielsen voor de 2de projectweek van het 1e jaar van de ITFactory van Thomas more geel. Arxpressions is een Flask-applicatie die dient als een online winkel voor het kopen van giftcards. Met deze applicatie kun je gemakkelijk een giftcard bestellen en deze wordt vervolgens via e-mail naar de ontvanger gestuurd.
 
 Ziehier een demonstratie video:
 
